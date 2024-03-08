@@ -5,10 +5,9 @@
 		<div class="row">
 			<div class="col-md-12">
 				<form method="post">
-
 					<?php 
 						if(isset($_POST['submit'])) {
-							$kategori = $_POST['id_kategori'];
+							$kategori = $_POST['kategori'];
 							$query = mysqli_query($koneksi, "INSERT INTO kategori(kategori) values('$kategori') ");
 
 							if($query) {

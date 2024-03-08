@@ -72,12 +72,12 @@
                                                 <label  class="small mb-1">level</label>
                                                 <select name="level" required class="form-selec form-control">
                                                     <option value="Peminjam">Peminjam</option>
-                                                    <option value="admin">Admin</option>
+                                                   
                                                 </select>                                            
                                             </div>
                                             <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
                                                <button class="btn btn-primary" type="submit" name="register" value="register">Register</button> 
-                                               <a class="btn btn-primary" href="Login.php">Login</a>
+                                               <a class="btn btn-danger" href="Login.php">Login</a>
                                             </div>
                                         </form>
                                     </div>
